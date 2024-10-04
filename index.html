@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagar's Resume Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<style>
+    .firstpage {
+        background-color: #e4f9f5;
+        height: 100vh;
+
+
+
+    }
+
+    .title-div {
+
+        color: #66bfbf;
+        font-size: 3rem;
+        font-family: "Sacramento", cursive;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    .top-image {
+        position: sticky;
+        height: 300px;
+        left: 140vh;
+    }
+
+    .bottam-image {
+        position: absolute;
+        height: 300px;
+        top: 610px;
+        left: 20vh;
+    }
+
+    .resume {
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+    .resume>h1 {
+        font-weight: bolder;
+        font-size: 5vh;
+        color: #66bfbf;
+        font-family: 'Courier New', Courier, monospace;
+        margin: 30px;
+    }
+
+    .profile-image {
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+
+    }
+    .projectsection{
+ background-image: url(./image/light-blue-texture.jpg);
+ height: auto;
+    }
+    .projectsection>h1{
+        color: #12aaaa;
+        text-align: center;
+        padding-top: 30px;
+        margin-bottom: 30px;
+        font-family:"Sacramento", cursive;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+    .footer{
+        text-align: center;
+        color:#eaf6f6;
+        padding-bottom: 50px;
+        font-weight:200px;
+        font-family:  "Merriweather", serif;
+    }
+    .contact>a{
+        
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    
+
+    }
+</style>
+
+<body>
+    <section class="firstpage">
+        <img class="top-image" src="./png/casual-life-3d-pink-cherries.png" alt="cherries">
+        <div class="title-div">
+            <h1 style="padding: 0% ; margin: 0px;">I'am Sagar.</h1>
+            <div>a software engineer.</div>
+            <img class="bottam-image" src="./png/3d-casual-life-mushroom-1.png" alt="mushroom">
+        </div>
+    </section>
+
+    <section class="resume">
+        <img class="profile-image" src="./image/my-image.jpg" alt="sagar's profile-image">
+        <h1>Hello.</h1>
+        <div class="profile">
+            <h2 style="margin-bottom: 20px;">My education profile</h2>
+            <ul style="list-style: none;">
+                <li>
+                    10th & 12th - The Skyland School Shahpur (2020-2022).
+                </li>
+                <li>
+                    Bachelor of Engineering - University of Dr. A.P.J. Abdul Kalam Technical University, Uttar Pradesh,
+                    Lucknow (2022-2026)
+
+                </li>
+            </ul>
+            <h2 style="margin-bottom: 20px;">My work-exprience</h2>
+            <ul  style="list-style: none;">
+                <li>I can make websites.I have exprience of 2 years</li>
+                <li>
+                I am also ios devloper.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="projectsection">
+        <h1>My projects</h1>
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+              <img src="./project-image/white-cake-with-candles-on-a-glass-plate.jpg" height="140" width="140" style="border-radius: 50%;" alt="cake">
+              <h2 class="fw-normal">B-day invitation</h2>
+
+              <p>It was my first project which is about Birthday invitation.</p>
+              <p><a class="btn btn-secondary" href="./my projects/3.4 Birthday Invite Project/index.html">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-sm-4">
+             <img src="./project-image/a-man-holding-a-cardboard-box-and-a-cell-phone.jpg" height="140" width="140" style="border-radius: 50%;" alt="a man with moving housh">
+              <h2 class="fw-normal">Move it</h2>
+              <p>It webside is of a startup which provide exceptional moving services to customers in the US.</p>
+              <p><a class="btn btn-secondary" href="./my projects/11.2 Bootstrap Components/index.html">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-sm-4">
+              <img src="./project-image/arent-we-just-cute-together-huh.jpg" height="140" width="140" style="border-radius: 50%;" alt="dog in girl hands">
+              <h2 class="fw-normal">TinDog</h2>
+              <p>It also a startup Website which is made for dog app.</p>
+              <p><a class="btn btn-secondary" href="./my projects/11.3 TinDog Project/index.html">View details »</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div>
+       
+      </div>
+        <div class="container">
+    <div class="contact">
+        <a href="">Linkedin</a>
+        <a href="./index.html">Website</a>
+        <a href="">Facebook</a>
+    </div>
+</div>
+<div class="footer">
+    © Sagar saini @ saini's work.
+</div>
+    </section>
+
+    <section class="aboutme">
+
+    </section>
+
+    <section class="contactme">
+
+    </section>
+</body>
+
+</html>
